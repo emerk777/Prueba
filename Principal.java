@@ -1,9 +1,10 @@
+import java.util.Random;
+
 public class Principal{
 
-public static void main(String[] args) {
-
-  System.out.println("Hola Mundo...  ... ahora el cambio luego del commit inicial");
-
-}
+  public static void main(String[] args) {
+  Random rand = new Random();
+  System.out.println(rand.nextInt(10));
+  }
 
 }
